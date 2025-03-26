@@ -4,7 +4,7 @@ from datetime import datetime
 
 def create_github_release():
     # Obtener token de GitHub desde variable de entorno
-    github_token = "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"
+    github_token = "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"  # Sin espacios, comillas correctas
     if not github_token:
         print("Error: No se encontró el token de GitHub. Asegúrate de configurar GITHUB_TOKEN")
         return
